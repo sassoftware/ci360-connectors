@@ -1,0 +1,14 @@
+{
+    "customAttributes": {
+      "groups": [
+        {
+          "fields": [
+            {
+              "attributeName": "JiraProjectKey",
+              "value": "ACL"
+            }
+          ]
+        }
+      ]
+   }
+}

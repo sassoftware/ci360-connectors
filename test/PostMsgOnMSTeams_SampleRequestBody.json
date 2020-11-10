@@ -1,0 +1,15 @@
+{
+    "name": "CI360 Sample Connector",
+    "customAttributes": {
+      "groups": [
+        {
+          "fields": [
+            {
+              "attributeName": "MSTeamComment",
+              "value": "Testing publish code"
+            }
+          ]
+        }
+      ]
+   }
+}
