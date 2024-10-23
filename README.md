@@ -1,14 +1,13 @@
 # SAS Customer Intelligence 360 - Sample Connectors
 
-
 ## Overview
 SAS CI360 Connector Framework provides an infrastructure to integrate CI360 applications with other applications. Using the CI360 connector framework customer can connect with third party system directly using Rest API or they may need to write some connectors (example: using AWS Lambda) for massaging the input/output data received from/to the third party system.
 
 This project contains a list of sample connector codes to help you write your connectors using AWS lambda to connect with other applications by writing programs in Python languages.
 
 ## Table of Contents
-
 This topic contains the following sections:
+
 * <a href="#prerequisites">Prerequisites</a>
 * <a href="#installation">Installation</a>
 * <a href="#getstart">Getting Started</a>
@@ -25,9 +24,7 @@ This topic contains the following sections:
 
 ## Installation
 
-
 ## Getting Started
-
 To set up and use the sample connector codes you need to perform the following steps :
 
 ### Download sample connector code
@@ -67,7 +64,6 @@ Please refer [How to Create a Custom Connector](http://documentation.sas.com/?cd
 For more information, refer the AWS official documents - [Building Lambda functions with Python](https://docs.aws.amazon.com/lambda/latest/dg/lambda-python.html)
 
 ### Register your connector into CI360
-
 After a successful deployment of your AWS lambda on the API gateway server you should get A Rest API. You need to register the connector and endpoint with these details into the CI360 system to use the connector.
 
 **Add and Register a Connector**
@@ -86,7 +82,6 @@ Please refer to [`Configure a Direct Connection to the Microsoft Teams Applicati
 Please refer to [`Configure a Direct Connection to the Slack Application`](http://documentation.sas.com/?cdcId=cintcdc&cdcVersion=production.a&docsetId=cintag&docsetTarget=n04a7swryauv51n1fqlsv972e1n3.htm&locale=en#p0a9700jl24rd5n1hjytsei3hwhr) section in the SAS Customer Intelligence 360 admin guide for configuring properties for Slack connector.
 
 ## Examples
-
 This example demonstrates the configuration of **ListJiraProjects** connector which is used to connect with the Jira server and fetch the project details. Also, this connector prepares the JSON response to require for the Dropdown list.
 
 1. I have downloaded `ci360-connectors` project source code on my local machine.<br />
@@ -110,18 +105,11 @@ List of sample connector files <br />
 
 6. I can use this REST API into CI360 to register and invoke the connector.
 
-
-## Troubleshooting
-
-
 ## Contributing
-
-> We welcome your contributions! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on how to submit contributions to this project. 
-
+We welcome your contributions! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on how to submit contributions to this project. 
 
 ## License
-
-> This project is licensed under the [Apache 2.0 License](LICENSE).
+This project is licensed under the [Apache 2.0 License](LICENSE).
 
 
 ## Additional Resources
